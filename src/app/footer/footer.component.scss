@@ -1,0 +1,288 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+
+.title-text {
+    font-size: 24px;
+    font-weight: bold;
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.address-class {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.phone-btn {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 25px;
+}
+
+
+.message-btn {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.join-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ul-list {
+    display: flex;
+    gap: 25px;
+}
+
+.search-text {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.sub-sub-class {
+    display: flex;
+    gap: 50px;
+}
+
+.on-click {
+    background-color: rgb(44 140 97 / 75%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.follow-us {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    font-size: 35px;
+}
+
+.main-availble-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-wd {
+    width: 130px;
+}
+
+.availble {
+    padding: 20px;
+}
+
+.last-one {
+    background-color: rgba(5, 48, 0, 0.571);
+    text-align: center;
+    font-weight: bold;
+}
+
+.privacy-class {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.privacy-text {
+    font-size: small;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 835px) {
+    ul li {
+        font-size: 12px;
+    }
+
+    .join-text {
+        font-size: 15px;
+    }
+
+    .phone-btn {
+        font-size: 18px;
+    }
+
+    .message-btn {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-text {
+        font-size: 20px;
+    }
+
+    .address-class,
+    .phone-btn,
+    .message-btn {
+        font-size: 12px;
+    }
+
+    ul li {
+        font-size: 14px;
+        margin-bottom: 8px;
+
+    }
+
+    .join-text {
+        font-size: 14px;
+
+    }
+
+    .on-click {
+        font-size: 12px;
+        padding: 6px;
+
+    }
+
+    .follow-us {
+        font-size: 14px;
+
+    }
+
+    .social-icons {
+        gap: 6px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title-text {
+        font-size: 18px;
+
+    }
+
+    .main-availble-class {
+        display: unset;
+    }
+
+    .img-wd {
+        width: 85px;
+    }
+
+    .address-class,
+    .phone-btn,
+    .message-btn {
+        font-size: 10px;
+
+    }
+
+    .sub-sub-class {
+        flex-direction: column;
+    }
+
+    .search-text {
+        align-items: unset;
+    }
+
+    ul li {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .join-text {
+        font-size: 12px;
+    }
+
+    .on-click {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .follow-us {
+        font-size: 12px;
+    }
+
+    .social-icons {
+        gap: 4px;
+    }
+
+    .main-footer {
+        gap: 25px;
+    }
+
+    .privacy-text {
+        font-size: 10px;
+    }
+
+    .for-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sub-sub-class {
+        display: none;
+    }
+
+    .img-wd {
+        width: 70px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .search-bar {
+        width: 130px;
+    }
+
+    ul li {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+}

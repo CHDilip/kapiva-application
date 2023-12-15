@@ -1,0 +1,446 @@
+.data-img {
+    font-size: 25px;
+}
+
+.select-text {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-forimg {
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.custom-box {
+    display: flex;
+    border: 1px solid #748b22;
+    padding: 3px;
+    border-radius: 5px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.div-alinge {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.product-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-head {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-searm {
+    position: relative;
+}
+
+
+.size-img {
+    width: -webkit-fill-available;
+    border-radius: 20px;
+}
+
+.searm-for {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cart-btn {
+    font-size: 25px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.buy-now-btn {
+    font-size: 25px;
+    border: none;
+    color: white;
+    background: #748b22;
+    border-radius: 5px;
+    padding: 0px 30px;
+}
+
+.display-div {
+    border: 1px solid rgba(0, 0, 0, 0.593);
+    border-radius: 5px;
+}
+
+.normal-div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 10px;
+    justify-content: space-around;
+}
+
+.text-arl {
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+.buy-product {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-head {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.consult-doctor {
+    display: flex;
+    align-items: center;
+    // flex-wrap: wrap;
+}
+
+.box-divs {
+    width: 100%;
+    background-color: #748b22;
+    padding: 10px;
+}
+
+.or-text {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.text-forimgs {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.img-divs {
+    font-size: 30px;
+}
+
+.imges-rate {
+    width: -webkit-fill-available;
+    border-radius: 10px;
+}
+
+.star-rate {
+    color: green;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.mini-rating {
+    border: 1px solid rgba(172, 158, 158, 0.593);
+    border-radius: 5px;
+}
+
+.kapiva-text {
+    font-weight: bold;
+}
+
+.sub-head {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.number {
+    font-size: 100px;
+    color: brown;
+}
+
+.main-matter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-matter {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+
+.text-section {
+    flex: 1;
+    text-align: left;
+}
+
+.text-section p {
+    text-align: right;
+}
+
+.main-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.matter,
+.matter-right {
+    font-size: 20px;
+}
+
+.main-text-right {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img-box-2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+}
+
+.back-ground {
+    background: #748b22;
+    padding: 50px;
+}
+
+.search-text {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.on-click {
+    background-color: rgb(44 140 97 / 75%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.example-card {
+    max-width: 250px;
+}
+
+.sub-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.back-sty {
+    border: 1px solid rgb(225 213 213 / 38%);
+    border-radius: 5px;
+}
+
+.sub-heads {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 25px;
+}
+
+.name-pro {
+    font-weight: bold;
+}
+
+.img-box-mobile {
+    display: none;
+}
+
+.mobli-icons {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 840px) {
+
+    .text-forimg,
+    .select-text {
+        font-size: 18px;
+    }
+
+    .cart-btn,
+    .buy-now-btn {
+        font-size: 18px;
+    }
+
+    .text-head {
+        font-size: 25px;
+    }
+
+    .text-forimgs {
+        font-size: 15px;
+    }
+
+    .main-text,
+    .main-text-right {
+        font-size: 18px;
+    }
+
+    .matter,
+    .matter-right,
+    .name-pro {
+        font-size: 15px;
+    }
+
+    .img-box-2 {
+        font-size: 20px;
+    }
+
+    .on-click {
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .number {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .text-section p,
+    .matter {
+        font-size: 14px;
+        /* Reduce text size for smaller screens */
+    }
+
+    .text-section p {
+        text-align: left;
+        /* Restore left alignment for small screens */
+    }
+
+    .text-section p.main-text-right {
+        text-align: right;
+        /* Right-align for small screens */
+    }
+
+    .img-section img {
+        max-width: 100%;
+        /* Ensure images fit within the container */
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .number {
+        font-size: 18px;
+    }
+
+    .text-section p,
+    .matter {
+        font-size: 12px;
+    }
+
+    .text-forimg {
+        font-size: 12px;
+    }
+
+    .buy-now-btn {
+        font-size: 30px;
+    }
+
+    .select-text {
+        font-size: 10px;
+    }
+
+    .text-head {
+        font-size: 15px;
+    }
+
+    .consult-doctor {
+        flex-wrap: wrap
+    }
+
+    .img-box-2,
+    .on-click {
+        font-size: 12px;
+    }
+
+    .sub-head {
+        font-size: 16px;
+    }
+
+    .sub-heads {
+        font-size: 26px;
+        letter-spacing: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .social-icons {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .or-text {
+        margin-left: 40%;
+    }
+
+    .mobli-icons {
+        display: unset;
+    }
+
+    .img-box-mobile {
+        display: flex;
+        justify-content: center;
+    }
+}
